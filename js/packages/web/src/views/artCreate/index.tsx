@@ -1329,7 +1329,7 @@ const Congrats = (props: {
       }/#/art/${props.nft?.metadataAccount.toString()}`,
       hashtags: 'NFT,Crypto,Shortgun',
       // via: "Metaplex",
-      related: 'Metaplex,Solana',
+      related: 'ShortGun,Solana',
     };
     const queryParams = new URLSearchParams(params).toString();
     return `https://twitter.com/intent/tweet?${queryParams}`;
